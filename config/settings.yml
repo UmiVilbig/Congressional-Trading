@@ -1,1 +1,12 @@
 # settings for the data pipeline
+default:
+  env: "dev"
+  data_dir: "data"
+  logs_dir: "logs"
+
+  collectors:
+    trades:
+      trades_url: "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/{year}FD.txt"
+      filing_url: "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/{year}/{doc_id}.pdf"
+      start_year: 2013
+      end_year: 2025
