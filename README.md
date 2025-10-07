@@ -1,3 +1,6 @@
+# The null hypothesis of this repo is
+# There is no significant difference between the average stock trading returns of U.S. congressmen and the returns of the S&P 500 index
+
 Fundementals of a Data Pipeline
 1. Collect data from various sources (APIs, files, streams etc)
 2. Transform and validate the data into its usuable from
